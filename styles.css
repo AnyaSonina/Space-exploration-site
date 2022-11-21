@@ -74,7 +74,7 @@ body {
   color: #fff;
 }
 
-btn:active {
+.btn:active {
   background-color: #4f5370;
   color: #fff;
 }
