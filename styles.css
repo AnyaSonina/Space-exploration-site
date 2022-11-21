@@ -76,10 +76,6 @@ body {
   color: #fff;
 }
 
-.btn:active {
-  background-color: #4f5370;
-  color: #fff;
-}
 
 .white_block .text_content:hover .underline {
   border-bottom: 4px solid #4f5370;
