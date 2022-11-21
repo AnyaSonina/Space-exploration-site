@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Star-shield";
+  src: url("/star-shield-eula.txt");
+}
+
+body {
+  margin: 0;
+  color: #afb4d8;
+  text-align: center;
+  font-family: 'Star-shield', sans-serif;
+}
+
+.white_block {
+ position: relative;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.white_block .text_content {
+  position: absolute; /* Position the background text */
+  top: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(255, 255, 255); /* Fallback color */
+  background: rgba(255, 255, 255, 0.3); 
+  color: inherit; /* Grey text */
+  padding: 1.5em;
+ /* Full width */
+ 
+}
+
+.white_block .text_content:hover {
+  background: rgba(255, 255, 255, 0.8); /* Black background with 0.5 opacity */
+}
+
+#hero {
+  background-image: url("images/background.webp");
+  background-size: cover;
+  padding: 10px 0 40px 0;
+  height: 40vh;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+  margin-bottom: 2em;
+
+}
+
+#main-logo {
+  width: 100px;
+}
+
+#title {  
+  text-shadow: 0px 0px 4px black;
+}
+
+.btn {
+  padding: 6px 12px 9px 12px;
+  background: white;
+  border: none;
+  font-family: inherit;
+  color: inherit;
+  font-weight: 800;
+  text-shadow: 1px 1px black;
+  border-radius: 10px;
+}
+
+.white_block .text_content:hover .btn {
+  cursor: pointer;
+  background-color: #4f5370;
+  color: #fff;
+}
+
+.white_block .text_content:hover .underline {
+  border-bottom: 4px solid #4f5370;
+}
+
+
+.underline {
+  border-bottom: 4px solid white;
+}
+ 
