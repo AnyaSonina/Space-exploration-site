@@ -69,7 +69,7 @@ body {
   color: #fff;
 }
 
-.white_block .text_content:hover .btn:hover, btn:focus {
+.btn:hover, btn:focus {
   background-color: #afb4d8;
   color: #fff;
 }
