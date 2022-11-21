@@ -63,15 +63,13 @@ body {
   border-radius: 10px;
 }
 
-
-
 .white_block .text_content:hover .btn {
   cursor: pointer;
   background-color: #4f5370;
   color: #fff;
 }
 
-.btn:hover, btn:focus {
+.white_block .text_content:hover .btn:hover, btn:focus {
   background-color: #afb4d8;
   color: #fff;
 }
