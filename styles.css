@@ -63,6 +63,10 @@ body {
   border-radius: 10px;
 }
 
+.btn:hover, btn:focus {
+  background-color: #afb4d8;
+  color: #fff;
+}
 
 
 .white_block .text_content:hover .btn {
@@ -71,10 +75,6 @@ body {
   color: #fff;
 }
 
-.btn:hover, btn:focus {
-  background-color: #afb4d8;
-  color: #fff;
-}
 
 
 .white_block .text_content:hover .underline {
