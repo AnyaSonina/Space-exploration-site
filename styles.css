@@ -20,18 +20,17 @@ body {
 }
 
 .white_block .text_content {
-  position: absolute; /* Position the background text */
-  top: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(255, 255, 255); /* Fallback color */
+  position: absolute; 
+  top: 0; 
+  background: rgb(255, 255, 255); 
   background: rgba(255, 255, 255, 0.3); 
-  color: inherit; /* Grey text */
+  color: inherit; 
   padding: 1.5em;
- /* Full width */
- 
+  
 }
 
 .white_block .text_content:hover {
-  background: rgba(255, 255, 255, 0.8); /* Black background with 0.5 opacity */
+  background: rgba(255, 255, 255, 0.8); 
 }
 
 #hero {
